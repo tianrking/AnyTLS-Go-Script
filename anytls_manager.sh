@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # AnyTLS-Go 服务端一键管理脚本
-# 版本: v0.0.8 (基于 anytls/anytls-go)
+# 版本: v0.0.12 (基于 anytls/anytls-go)
 
 # --- 全局配置参数 ---
-ANYTLS_VERSION="v0.0.8"
+ANYTLS_VERSION="v0.0.12"
 BASE_URL="https://github.com/anytls/anytls-go/releases/download"
 INSTALL_DIR_TEMP="/tmp/anytls_install_$$" # 使用 $$ 增加随机性
 BIN_DIR="/usr/local/bin"

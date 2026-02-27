@@ -7,7 +7,7 @@
 
 ## 主要功能
 
-* **一键安装/更新**：快速部署最新指定版本 (v0.0.8) 的 `anytls-go` 服务端。
+* **一键安装/更新**：快速部署最新指定版本 (v0.0.12) 的 `anytls-go` 服务端。
 * **自动化依赖处理**：自动检测并安装 `wget`, `unzip`, `curl`, `qrencode` 等必要工具。
 * **Systemd 服务管理**：
     * 开机自启
@@ -31,13 +31,13 @@
 你可以通过以下任一命令下载脚本：
 
 ```bash
-wget -O anytls_manager.sh https://raw.githubusercontent.com/tianrking/AnyTLS-Go/refs/heads/main/anytls_manager.sh
+wget -O anytls_manager.sh https://raw.githubusercontent.com/ZedRover/AnyTLS-Go-Script/refs/heads/main/anytls_manager.sh
 ````
 
 或者
 
 ```bash
-curl -o anytls_manager.sh -L https://raw.githubusercontent.com/tianrking/AnyTLS-Go/refs/heads/main/anytls_manager.sh
+curl -o anytls_manager.sh -L https://raw.githubusercontent.com/ZedRover/AnyTLS-Go-Script/refs/heads/main/anytls_manager.sh
 ```
 
 ### 2\. 赋予执行权限
